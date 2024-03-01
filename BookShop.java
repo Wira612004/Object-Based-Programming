@@ -1,3 +1,5 @@
+// Wira Harsa | TI22I
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
