@@ -80,7 +80,7 @@ public class BookShop {
             }
         } while (choice != 7);
 
-        scanner.close(); // Closing the scanner object when the program ends
+        scanner.close(); 
     }
 
     static void listBooks() {
@@ -98,7 +98,7 @@ public class BookShop {
     }
 
     static void searchBookInfo() {
-        scanner.nextLine(); // Consume newline character
+        scanner.nextLine();
         System.out.print("Enter book title to search: ");
         String searchTitle = scanner.nextLine();
 
@@ -117,7 +117,7 @@ public class BookShop {
     }
 
     static void buyBook() {
-        scanner.nextLine(); // Consume newline character
+        scanner.nextLine(); 
         System.out.print("Enter book title to buy: ");
         String buyTitle = scanner.nextLine();
 
@@ -132,7 +132,7 @@ public class BookShop {
     }
 
     static void buyBookFromTrolley() {
-        scanner.nextLine(); // Consume newline character
+        scanner.nextLine(); 
         System.out.print("Enter book title from trolley to buy: ");
         String buyTitle = scanner.nextLine();
 
